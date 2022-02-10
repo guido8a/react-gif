@@ -17,7 +17,7 @@ export const useTraeGifs = (categoria) => {
                    data: imgs,
                    cargando: false
                 })
-            }, 3000);
+            }, 500);
 
          })
      }, [categoria])
